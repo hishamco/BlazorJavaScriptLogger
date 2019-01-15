@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Extensions.Logging", "My.Extensions.Logging\My.Extensions.Logging.csproj", "{189EA76B-3D31-4E6D-BE94-B506F3B792FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorJavaScriptLogger", "BlazorJavaScriptLogger\BlazorJavaScriptLogger.csproj", "{93E38EED-381A-4F40-B5AC-3C3E204B5370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{189EA76B-3D31-4E6D-BE94-B506F3B792FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189EA76B-3D31-4E6D-BE94-B506F3B792FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189EA76B-3D31-4E6D-BE94-B506F3B792FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189EA76B-3D31-4E6D-BE94-B506F3B792FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E38EED-381A-4F40-B5AC-3C3E204B5370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E38EED-381A-4F40-B5AC-3C3E204B5370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E38EED-381A-4F40-B5AC-3C3E204B5370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E38EED-381A-4F40-B5AC-3C3E204B5370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1D2000B-85F4-47E4-A807-397E8E044815}
+	EndGlobalSection
+EndGlobal
