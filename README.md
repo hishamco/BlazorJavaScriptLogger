@@ -1,2 +1,2 @@
-# Blazor-JavaScript-Logger
+# Blazor JavaScript Logger
 jsLogger with Blazor
