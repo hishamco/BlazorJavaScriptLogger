@@ -44,7 +44,7 @@ namespace My.Extensions.Logging
             if (!string.IsNullOrEmpty(message) || exception != null)
             {
                 message = $"[{_name}] {message}";
-                JSRuntime.Current.InvokeAsync<object>("My.Extensions.Logging.JavaScriptLogger.Log", message);
+                JSRuntime.Current.InvokeAsync<object>("jsLogger.log", logLevel.ToString(), message);
             }
         }
     }
