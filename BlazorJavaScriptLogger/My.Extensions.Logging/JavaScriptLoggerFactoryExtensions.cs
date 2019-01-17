@@ -6,7 +6,7 @@ namespace My.Extensions.Logging
 {
     public static class JavaScriptLoggerFactoryExtensions
     {
-        public static ILoggingBuilder AddBrowserConsole(this ILoggingBuilder builder)
+        public static ILoggingBuilder AddWebConsole(this ILoggingBuilder builder)
         {
             builder.Services.TryAddEnumerable(ServiceDescriptor.Singleton<ILoggerProvider, JavaScriptLoggerProvider>());
             return builder;
